@@ -291,3 +291,43 @@ footer {
 .footer__column--light {
     background-color: #F4F4F4;
 }
+
+@media screen and (max-width: 1024px) {
+
+    .button__contact,
+    .button__buy {
+        width: 100px;
+        font-size: 12px;
+    }
+
+    .header__price__big-price {
+        font-size: 34px;
+    }
+
+    .header__column h2 {
+        font-size: 20px;
+    }
+
+    .header__column--pink h2 {
+        font-size: 20px;
+    }
+
+    .header__price {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        width: 100vh;
+        height: 100vh;
+    }
+
+    body {
+        justify-content: center;
+    }
+
+    .pricing-plan__text--big {
+        font-size: 20px;
+    }
+}
